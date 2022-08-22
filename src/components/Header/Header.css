@@ -1,0 +1,22 @@
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--new-yellow);
+  padding: 1rem 4rem;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-icons {
+  cursor: pointer;
+  color: black;
+  margin-right: 1rem;
+}
+
+.header-icons:hover {
+  color: var(--new-yellow);
+}
