@@ -29,7 +29,7 @@ const Header = ({ isAuth, setIsAuth }) => {
     <>
       <div className="header-section">
         <h1>Apiwiz</h1>
-        <div>
+        <div className="icons">
           <LoginIcon onClick={signInWithGoogle} className="header-icons" />
           <LogoutIcon onClick={signUserOut} className="header-icons" />
         </div>
